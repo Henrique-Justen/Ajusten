@@ -70,13 +70,7 @@ section{padding:4.5rem 0}
 }
 
 .about{background:var(--card)}
-.about .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:3rem;align-items:center}
-@media(max-width:800px){.about .wrap{grid-template-columns:1fr}}
 .about p{color:var(--muted);margin-top:1rem;max-width:46ch}
-.about aside{border:1px solid var(--line);border-radius:20px;padding:1.6rem}
-.about aside strong{display:block;font-size:1.4rem;margin-bottom:.4rem}
-.about aside span{color:var(--muted);display:block}
-.about aside a{display:inline-block;margin-top:1rem;color:var(--accent);font-weight:600}
 
 .contact{text-align:center;background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%)}
 .contact .wrap{max-width:640px}
@@ -137,6 +131,10 @@ th,td{text-align:left;padding:1rem 1.2rem;border-bottom:1px solid var(--line);ve
 th{background:var(--card);color:var(--accent);font-weight:600;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase}
 tr:last-child td{border-bottom:0}
 td:first-child{font-weight:600;white-space:nowrap}
+.tagline{margin-top:2rem;font-weight:600;font-style:italic;color:var(--accent)}
+.contact .info-line{color:var(--ink);font-weight:400;margin:1.6rem 0 0}
+.contact .info-line a{color:var(--accent)}
+.note{margin-top:1.2rem;font-weight:500;color:var(--accent)}-space:nowrap}
 .tagline{margin-top:2rem;font-weight:600;font-style:italic;color:var(--accent)}
 .contact .info-line{color:var(--ink);font-weight:400;margin:1.6rem 0 0}
 .contact .info-line a{color:var(--accent)}
