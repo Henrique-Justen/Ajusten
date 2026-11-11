@@ -134,8 +134,4 @@ td:first-child{font-weight:600;white-space:nowrap}
 .tagline{margin-top:2rem;font-weight:600;font-style:italic;color:var(--accent)}
 .contact .info-line{color:var(--ink);font-weight:400;margin:1.6rem 0 0}
 .contact .info-line a{color:var(--accent)}
-.note{margin-top:1.2rem;font-weight:500;color:var(--accent)}-space:nowrap}
-.tagline{margin-top:2rem;font-weight:600;font-style:italic;color:var(--accent)}
-.contact .info-line{color:var(--ink);font-weight:400;margin:1.6rem 0 0}
-.contact .info-line a{color:var(--accent)}
 .note{margin-top:1.2rem;font-weight:500;color:var(--accent)}
